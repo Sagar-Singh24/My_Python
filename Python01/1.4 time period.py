@@ -1,0 +1,5 @@
+p=float(input("Enter the Principal Amount -> "))
+si=float(input("Enter the Interest Amount ->"))
+r=float(input("Enter the rate of interest -> "))
+t=(si*100)/(p*r)
+print("The Time Period of given values (in years) is -> %.2f"%(t))

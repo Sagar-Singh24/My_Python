@@ -1,0 +1,5 @@
+x=int(input("Enter the value of x -> "))
+y=int(input("Enter the value of y -> "))
+n=int(input("Enter the value of n (in range 2 - 8) -> "))
+e=((((x*x)+(x*x*x))/((y/4)+(y/3)+y**8))**(2*n))*(((y**6)+(y**2))/x**9)
+print("The value of given inputs in Expression is -> ",e)
